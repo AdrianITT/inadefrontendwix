@@ -1,0 +1,35 @@
+.custom-button {
+     position: fixed; /* ← para que flote */
+     left: 20px;       /* ← distancia desde el borde izquierdo */
+     bottom: 20px;     /* ← o usa 'top: 20px' si prefieres arriba */
+     z-index: 1000;    /* ← para que esté encima del contenido */
+   
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     padding: 16px 16px;
+     font-size: 16px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     outline: none;
+     user-select: none;
+     color: #ffffff;
+     border: 0px solid #00ff12;
+     border-radius: 50px;
+     background-color: #00fd21;
+     box-shadow: 0px 1px 26px 14px #24ff00;
+     text-shadow: 0px 2px 4px #ffffff;
+     animation: glowPulse 1.5s ease-in-out infinite;
+   }
+   
+   .custom-button:hover {
+     transition: all 0.3s ease;
+   }
+   
+   @keyframes glowPulse {
+     0% { box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+     50% { box-shadow: 0 0 20px rgba(0,0,0,0.4); }
+     100% { box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+   }
+   

@@ -1,0 +1,30 @@
+.App {
+     text-align: center;
+   }
+/* miEstiloChat.css */
+.rcw-widget-container {
+     width: 420px !important;
+     font-size: 15px;
+     border-radius: 10px;
+     overflow: hidden;
+     
+   }
+   
+   .rcw-header {
+     background-color: #2394c8 !important;
+     color: #fff !important;
+   }
+   
+   .rcw-launcher {
+     background-color: #2394c8 !important;
+   }
+   
+   .rcw-message-text {
+     font-family: 'Segoe UI', sans-serif;
+     font-size: 12px;
+   }
+   
+   .rcw-input {
+     font-size: 14px;
+   }
+   
