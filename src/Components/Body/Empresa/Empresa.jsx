@@ -14,7 +14,7 @@ const Empresa = () => {
             <div className="card-body">
               <p className="card-text">
                 El mercado actual exige empresas de alta calidad, orientadas al trabajo colaborativo para alcanzar resultados óptimos. En <strong>INADE</strong>,
-                respondemos a estas exigencias mediante la implementación de un sistema de gestión de calidad basado en la norma <strong>NMX-EC-17025-IMNC-2006</strong>.
+                respondemos a estas exigencias mediante la implementación de un sistema de gestión de calidad basado en la norma <strong>NMX-EC-17025-IMNC-2018</strong>.
               </p>
               <p className="card-text">
                 Con presencia estratégica en <strong>Tijuana, Mexicali, Monterrey, Veracruz</strong> y <strong>Los Cabos</strong>, conformamos equipos de trabajo
